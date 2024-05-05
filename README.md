@@ -88,7 +88,6 @@
 	<code><img width="50" src="https://github.com/Ramonmelod/profile-technology-icons/assets/139141993/b3064b7a-2027-4b95-b1c8-0b4a99e0b0b1" alt="MQTT" title="MQTT"/></code>
 </div>
 
-<a href="http://www.github.com/Aurumdev952"><img src="https://activity-graph.herokuapp.com/graph?username=Aurumdev952&bg_color=fff&color=000&line=0075ff&point=000&area_color=164df97a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Aurumdev952&show_icons=true&locale=en" alt="benjamin" /></p>
 
