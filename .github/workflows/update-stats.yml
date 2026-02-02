@@ -1,0 +1,38 @@
+name: Update Stats
+
+on:
+  # Run daily at 12:00 AM Rwanda time (UTC+2 → 22:00 UTC)
+  schedule:
+    - cron: '0 22 * * *'
+
+  # Allow manual trigger (run ASAP)
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Stats Images
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & Push if changed
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add profile-summary-card-output
+          git commit -m "chore: update profile stats cards"
+          git push
