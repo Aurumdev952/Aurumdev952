@@ -89,6 +89,10 @@
 </div>
 
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Aurumdev952&show_icons=true&locale=en" alt="benjamin" /></p>
+### 📊 GitHub Stats
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Aurumdev952&" alt="benjamin" /></p>
+<p align="left">
+  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Aurumdev952" />
+  
+  <!-- <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Aurumdev952" />  -->
+</p>
