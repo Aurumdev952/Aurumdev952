@@ -3,7 +3,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&background=FFFFFF00&width=435&lines=Hello+There+!!;My+name+is+Benjamin;I+am++a+Software+Engineer;I+am+Currently+Mastering%3A;Backend+Development)](https://git.io/typing-svg)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Aurumdev952&label=Profile%20views&color=0e75b6&style=flat" alt="benjamin" /> </p>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=Aurumdev952&label=Profile%20views&color=0e75b6&style=flat" alt="benjamin" /> </p> -->
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Aurumdev952" alt="benjamin" /></a> </p>
 
